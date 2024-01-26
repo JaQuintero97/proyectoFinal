@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    min-height:0;
+}
+
+.app-container {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido principal tenga un z-index mayor que el formulario */
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    transition: background-color 0.3s ease; /* Añade una transición de color de fondo */
+  }
+  

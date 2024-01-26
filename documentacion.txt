@@ -1,0 +1,26 @@
+Desarrollo Frontend:
+
+Tecnologías Utilizadas: Se empleó React.js para construir el frontend, aprovechando la biblioteca de componentes reutilizables y el enfoque basado en componentes para facilitar el desarrollo y mantenimiento del código.
+
+Estilos y Diseño: Se aplicaron estilos utilizando CSS y se organizó el diseño con un enfoque moderno y centrado en la experiencia del usuario. Se implementó un diseño responsivo para garantizar una visualización adecuada en diferentes dispositivos.
+
+Integración de Iconos y Recursos Externos: Se integraron iconos de FontAwesome para mejorar la estética y la usabilidad de la interfaz. Además, se manejaron recursos externos, como imágenes, para mostrar productos.
+
+
+Desarrollo Backend:
+
+Tecnologías Backend: Se utilizó Spring Boot para construir el backend, aprovechando su simplicidad y capacidad de creación rápida de API REST. También se empleó un sistema de base de datos para almacenar y recuperar la información de los productos.
+
+Manejo de Archivos: Se implementó una funcionalidad para manejar archivos, permitiendo la carga y recuperación de imágenes asociadas a los productos. Esto se hizo a través de rutas específicas en el controlador.
+
+Seguridad y Control de Errores: Se implementaron medidas de seguridad, como el manejo de errores, para garantizar la integridad y seguridad de la aplicación. Se utilizaron respuestas HTTP adecuadas para informar sobre el éxito o el fracaso de las solicitudes.
+
+
+Pruebas:
+Pruebas de Integración: Se llevaron a cabo pruebas de integración para garantizar la correcta comunicación entre el frontend y el backend. Se comprobaron las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los productos.
+
+Pruebas de Usabilidad: Se realizaron pruebas de usabilidad para evaluar la experiencia del usuario. Se prestaron especial atención a la facilidad de búsqueda de productos y a la presentación visual de los resultados.
+
+En resumen, la experiencia de desarrollo y pruebas se centró en la construcción de una aplicación web robusta y fácil de usar que cumpliera con los requisitos especificados, garantizando al mismo tiempo la calidad y seguridad del software.
+
+Como dato aparte, me costó muchísimo la carga y visualización de las imágenes, pero lo pude lograr después de mucho. Fue lo que más me costó, considero que sería importante que enseñen esta parte mas a fondo en Backend, cuando vi la materia no tocamos el apartado de mandar y recibir Files. Muchas gracias, atento a cualquier duda.

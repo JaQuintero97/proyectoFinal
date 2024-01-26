@@ -1,0 +1,100 @@
+.searchBar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1b1b1c;
+    color: #cbcbd1;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Añadido para centrar horizontalmente */
+    position: fixed;
+    top: 4.8rem; /* Ajusta la posición vertical según tus necesidades */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition:  0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .input {
+    flex: 1;
+    margin-left: 3rem;
+    padding: 0.5rem;
+    color: #9c9ca1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    font-weight: 300;
+  }
+  
+  .closeIcon {
+    position: absolute;
+    top: 1.6rem;
+    right: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .resultsContainer {
+    display: flex;
+    flex-direction: column; /* Cambiado de row a column */
+    align-items: center;
+    justify-content: center; /* Añadido para centrar verticalmente */
+    margin-top: 3rem;
+    font-weight: 150;
+  }
+  
+  .notFoundMessage {
+    margin-top: 3rem;
+    font-weight: 150;
+    margin-bottom: 4rem;
+  }
+
+  .productList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Ajustado para que las tarjetas vayan de izquierda a derecha */
+    gap: 1.5rem; /* Añadido para establecer un espacio entre las tarjetas */
+    margin-left: 3.5rem;
+  }
+  
+  
+  .productItem {
+    width: 22%; /* Ajusta según tus necesidades */
+    margin-top: 2rem;
+    margin-bottom: 2rem; /* Añadido para separar las tarjetas verticalmente */
+  }
+  
+  /* Modifica el estilo de .productoContainer */
+  .productoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .productoContainer img {
+    max-width: 100%;
+    max-height: 100%; /* Ajusta según tus necesidades */
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+h3{
+  font-weight: 250;
+  text-transform: uppercase;
+  color: white
+}
